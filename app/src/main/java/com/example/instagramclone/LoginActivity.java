@@ -25,6 +25,10 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        if(ParseUser.getCurrentUser() != null) {
+            goMainActivity();
+        }
+
         etUsername = findViewById(R.id.etUsername);
         etPassword = findViewById(R.id.etPassword);
         btnLogin = findViewById(R.id.btnLogin);
@@ -49,7 +53,7 @@ public class LoginActivity extends AppCompatActivity {
                     return;
                 }
                 goMainActivity();
-                Toast.makeText(LoginActivity.this, "Successfully Logged In", Toast.LENGTH_SHORT).show();
+                Toast.makeText(LoginActivity.this, "Success!", Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -57,5 +61,6 @@ public class LoginActivity extends AppCompatActivity {
     private void goMainActivity() {
         Intent i = new Intent(this, MainActivity.class);
         startActivity(i);
+        finish();
     }
 }
