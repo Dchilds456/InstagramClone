@@ -36,7 +36,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Here's an updated walkthrough of implemented user stories:
 
-<img src='https://github.com/Dchilds456/InstagramClone/blob/master/InstagramClone%20part%201%20walkthrough.gif?raw=true' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/Dchilds456/InstagramClone/blob/master/InstagramClone%20part%202%20walkthrough.gif?raw=true' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
